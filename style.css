@@ -1,3 +1,24 @@
 body{
 	overflow: hidden;
 }
+
+body, html {
+  height: 100%;
+}
+
+.rectangle8{
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	background: #83D081;
+}
+
+.rectangle3{
+	float: right;
+	position: relative;
+	width: 50%;
+	height: 100%;
+	background: radial-gradient(50% 50% at 50% 50%, 
+				rgba(33, 174, 73, 0.34) 0%, 
+				rgba(33, 174, 73, 0) 100%);
+}
