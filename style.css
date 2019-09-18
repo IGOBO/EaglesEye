@@ -1,24 +1,132 @@
-body{
-	overflow: hidden;
+nav{
+  padding: 2px 0;
+  border: 3px solid green;
+  text-align: center;
 }
 
-body, html {
-  height: 100%;
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; 
+    width: 433px;
+    height: 463px;
+    background: #83D081;
+  }
+
+  .column1 {
+    margin: auto;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    height: 300px;
+    width: 433px;
+    height: 463px;
+    background: #83D081;
+    border-radius: 2%;
+  }
+  
+  .logo{
+      margin: auto;
+      width: 50%;
+      padding: 0px;
 }
 
-.rectangle8{
-	position: absolute;
-	width: 50%;
-	height: 100%;
-	background: #83D081;
+img{ margin: auto;
+  width: 100%;
+  padding: 10px;
+  width: 80px;
+  height: 57px;
+}
+  h2{
+      /* EAGLESEYE */
+      margin: auto;
+      padding: 10px;
+      width: 194px;
+     height: 42px;
+
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+h5{
+  margin: auto;
+  width: 490%;
+  padding: 0px;
+}
+  p{
+      margin: auto;
+      width: 50%; 
+      width: 400px;
+      height: 64px;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+  }
+  
+  .fill{
+      /* Rectangle 6 */
+      box-shadow: inset 20 -5px 50px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+      
+      background: radial-gradient(50% 50% at 50% 50%, rgba(33, 174, 73, 0.34) 0%, rgba(33, 174, 73, 0) 100%); 
+  }
+
+  button,.up{
+      /* Rectangle 5 */
+background-color: azure;
+position: absolute;
+width: 90px;
+height: 31px;
+
+background: rgb(226, 150, 36);
+opacity: 0.5;
+border: 1px solid #FAFEFA;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 21px;
+  }
+
+  button:hover,.up:hover{
+    /* Rectangle 5 */
+background-color: white;
+width: 90px;
+height: 31px;
+background:white;
+opacity: 0.5;
+border: 1px solid #FAFEFA;
+box-sizing: border-box;
+border-radius: 21px;
 }
 
-.rectangle3{
-	float: right;
-	position: relative;
-	width: 50%;
-	height: 100%;
-	background: radial-gradient(50% 50% at 50% 50%, 
-				rgba(33, 174, 73, 0.34) 0%, 
-				rgba(33, 174, 73, 0) 100%);
-}
+  input[type="text"]{
+      /* Rectangle 4.1 */
+
+position: absolute;
+width: 225px;
+height: 32px;
+
+background: rgba(105, 209, 103, 0.79);
+border: 1px solid #FAFEFA;
+box-sizing: border-box;
+border-radius: 10px;
+  }
+
+input[type="password"]{
+    /* Rectangle 4.2 */
+    position: absolute;
+    width: 225px;
+    height: 32px;
+    
+    background: rgba(105, 209, 103, 0.79);
+    border: 1px solid #FAFEFA;
+    box-sizing: border-box;
+    border-radius: 10px;}
